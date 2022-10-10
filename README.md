@@ -1,27 +1,7 @@
----
-title: Discord Python bot
-description: A Discord bot written in Python
-tags:
-  - python
-  - discord.py
----
+# Mario Kart Tournament Bot
 
-# Discord.py Example
-
-This example starts a Discord bot using [discord.py](https://discordpy.readthedocs.io/en/stable/).
-
-[![Deploy on Railway](https://railway.app/new/template/PxM3nl)
-
-## ✨ Features
-
-- Python
-- Discord.py
-
-## 💁‍♀️ How to use
-
-- Install packages using `pip install -r requirements.txt`
-- Start the bot using `python main.py`
-
-## 📝 Notes
-
-This is a basic bot with the prefix `!`, more information can be founded at their [offical documentation](https://discordpy.readthedocs.io/en/stable/api.html).
+This is a Discord bot written in discord.py designed to help you run large-scale Free-for-all or Mogi tournaments for Mario Kart games. The bot is designed to automate all of the long and tedious tasks associated with running tournaments, including:
+- Randomizing rooms using random.org, and printing them in a customizable format
+- Storing results for each room of the tournament
+- Determining which players will advance to the next round, including support for more complicated rules such as tiebreakers, highest scoring xth place teams, and more
+- Generating final placements
